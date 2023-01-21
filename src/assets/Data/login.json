@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "email": "pratibha@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "email": "vidya@gmail.com",
+      "password": "456",
+      "id": 2
+    },
+    {
+      "email": "deshmukh@gmail.com",
+      "password": "789",
+      "id": 3
+    }
+  ],
+  "regis": [
+    {
+      "fname": "pratibha",
+      "lname": "deshmukh",
+      "email": "pratibha@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "fname": "monish",
+      "laname": "deshmukh",
+      "email": "monish@gmail.com",
+      "password": "monish",
+      "id": 2
+    },
+    {
+      "fname": "Prta",
+      "lname": "ll",
+      "email": "kkkk@gg",
+      "password": "jjjj",
+      "id": 3
+    },
+    {
+      "fname": "",
+      "lname": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    }
+  ],
+  "flightlist": [
+    {
+      "from": "Mumbai",
+      "to": "Goa",
+      "date": "2022-11-01",
+      "name": "Air India",
+      "price": 5000,
+      "time": "12pm"
+    },
+    {
+      "from": "Mumbai",
+      "to": "Goa",
+      "date": "2022-11-01",
+      "name": "Vistara",
+      "price": 8000,
+      "time": "10am"
+    }
+  ]
+}

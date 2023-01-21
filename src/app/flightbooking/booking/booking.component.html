@@ -1,0 +1,42 @@
+<p>booking works!</p>
+<form [formGroup]="flight">
+<select class="form-select" aria-label="Default select example" formControlName="from">
+  <label>from</label>
+   
+    <option value="Mumbai">Mumbai</option>
+    <option value="2">Pune</option>
+    <option value="3">Delhi</option>
+  </select>
+
+  <select class="form-select" aria-label="Default select example" formControlName="to">
+    <label>to</label>
+   
+    <option value="Goa">Goa</option>
+    <option value="2">Delhi</option>
+    <option value="3">Bhopal</option>
+  </select>
+  <button (click)="search()">Search</button>
+</form>
+
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Sr No</th>
+      <th scope="col">Flight</th>
+      <th scope="col">time</th>
+      <th scope="col">Price</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr *ngFor="let i of result index as a">
+    <td>{{a+1}}</td>
+    <td>{{i.name}}</td>
+    <td>{{i.time}}</td>
+    <td>{{i.price}}</td>
+     <td><button (click)="fbook(i)">Book</button></td>
+    
+   </tr>
+  </tbody>
+</table>
